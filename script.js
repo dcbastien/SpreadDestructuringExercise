@@ -58,3 +58,22 @@ const bonus = {
     third: [7, 8, 9]
   };
 
+//BONUS-5a???
+const all = bonus.first.concat(bonus.second,bonus.third);
+//OR, MAYBE???
+// const all = [...bonus.first,...bonus.second,...bonus.third]
+// console.log(all);
+
+//5b   
+const[
+     one,
+     two,
+     three,
+     four,
+     five,
+     six,
+     seven,
+     eight,
+     nine
+] = all; 
+console.log(nine);
